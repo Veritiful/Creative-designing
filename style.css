@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+    --primary-white: #ffffff;
+    --secondary-white: #e2e1e1;
+}
+
+header{
+    height: 120vh;
+
+    background-color: var(--primary-white);
+}
+
+.about{
+    height: 90vh;
+
+    background-color: var(--secondary-white)
+}
+
+.portfolio{
+    height: 90vh;
+
+    background-color: var(--primary-white)
+}
+
+.partners{
+    height: 60vh;
+
+    background-color: var(--secondary-white)
+}
+
+.contact{
+    height: 95vh;
+
+    background-color: var(--primary-white)
+}
+
+footer{
+    height: 5vh;
+
+    background-color: var(--secondary-white)
+}
