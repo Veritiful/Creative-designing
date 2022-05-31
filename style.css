@@ -56,7 +56,7 @@ nav > ul{
     list-style: none;
 }
 
-nav > ul > li > a{
+a{
     color: rgb(255, 255, 255);
     font-size: 16px;
     font-weight: 900;
@@ -176,15 +176,57 @@ aside > span{
     width: 50vw;
 }
 
-
 #contact{
     height: 95vh;
-
     background-color: var(--secondary-white);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+form {
+    font-family: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input, textarea, .send {
+    font-size: 32px;
+    font-family: inherit;
+    font-weight: 500;
+    padding: 10px;
+    border: 4px solid var(--primary-black);
+    border-radius: 10px;
+    height: 80px;
+    width: 70vmin;
+    margin: 10px;
+}
+
+textarea{
+    height: 300px;
+    resize: none;
+}
+
+.send{
+    background-color: var(--primary-black);
+    color: var(--primary-white);
 }
 
 footer{
     height: 5vh;
+    background-color: var(--primary-black);
 
-    background-color: var(--secondary-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > p{
+    font-weight: 700;
+    text-align: center;
 }
