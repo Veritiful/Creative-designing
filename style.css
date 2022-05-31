@@ -157,18 +157,34 @@ aside > span{
 
 #partners{
     height: 60vh;
+    background: url("./img/partners-bg.png") no-repeat center center;
+    background-size: cover;
 
-    background-color: var(--primary-white)
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
 }
+
+#partners > p{
+    text-align: center;
+    font-size: 64px;
+}
+
+#partners > img{
+    width: 50vw;
+}
+
 
 #contact{
     height: 95vh;
 
-    background-color: var(--secondary-white)
+    background-color: var(--secondary-white);
 }
 
 footer{
     height: 5vh;
 
-    background-color: var(--secondary-white)
+    background-color: var(--secondary-white);
 }
