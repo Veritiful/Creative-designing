@@ -1,0 +1,39 @@
+@media only screen and (max-width: 1190px) {
+    #about > figure > img{
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 1040px) {
+    .slogan{
+        font-size: 16px;
+        letter-spacing: 5px;
+    }
+
+    h1{
+        font-size: 48px;
+    }
+
+    #about > p{
+        font-size: 28px;
+    }
+
+    #pictures img{
+        margin: 8px;
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    #about > figure > img{
+        width: 300px;
+    }
+
+    .slogan{
+        letter-spacing: 1px;
+    }
+
+    nav > ul{
+        height: 80px;
+    }
+}

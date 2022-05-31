@@ -43,6 +43,7 @@ nav{
     transform: translateX(-100%) rotate(-90deg);
     transform-origin: top right;
     width: 120vh;
+    z-index: 10;
 }
 
 nav > ul{
@@ -63,8 +64,12 @@ a{
     text-decoration: none;
 }
 
+a:hover{
+    cursor: pointer;   
+    color: var(--secondary-white);
+}
+
 aside{
-    transform: translateY(-125px);
     height: 100vh;
     display: flex;
     flex-direction: column;
