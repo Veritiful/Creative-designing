@@ -14,8 +14,19 @@ body{
 :root{
     --primary-white: #ffffff;
     --secondary-white: #e2e1e1;
+    --primary-black: #2a2a2a;
+    --underline: #25c3c3;
 }
 
+h1{
+    font-weight: 500;
+    font-size: 64px;
+    color: var(--primary-black);
+    padding: 16px;
+
+    display: inline-block;
+    border-bottom: 8px solid var(--underline);
+}
 
 button:hover{
     cursor: pointer;
@@ -31,7 +42,6 @@ header{
 nav{
     transform: translateX(-100%) rotate(-90deg);
     transform-origin: top right;
-    background-color: black;
     width: 120vh;
 }
 
@@ -97,16 +107,37 @@ aside > button{
     color: inherit;
 }
 
+aside > span{
+    font-size: 100px !important;
+}
+
 #about{
     height: 90vh;
+    background-color: var(--primary-white);
 
-    background-color: var(--secondary-white)
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
+
+#about > p{
+    color: var(--underline);
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+    margin: 50px;
+}
+
+#about > figure > img{
+    transform: translateX(30px);
+}
+
 
 #portfolio{
     height: 90vh;
 
-    background-color: var(--primary-white)
+    background-color: var(--secondary-white)
 }
 
 #partners{
